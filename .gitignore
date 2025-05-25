@@ -1,0 +1,156 @@
+### Общие системные файлы ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.bak
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+### IDE и редакторы ###
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+### Node.js / React ###
+# Dependencies
+node_modules/
+
+# Production
+build/
+dist/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build tools
+.cache/
+.turbo/
+
+### FastAPI ###
+# Environment variables
+.env
+.venv
+
+# Virtual environment
+venv/
+ENV/
+
+# SQLite
+*.sqlite
+*.sqlite3
+
+### PostgreSQL ###
+# Database files
+*.dump
+*.pgdump
+postgres-data/
+
+### Docker ###
+# Docker compose
+docker-compose.override.yml
+
+# Kubernetes
+*kubeconfig
+
+### Миграции (если не храните в репозитории) ###
+# alembic/versions/
+
+### Тестовые данные ###
+test_data/
+mock_data/
+
+### Frontend специфичные ###
+.eslintcache
+.stylelintcache
+
+# Next.js
+.next/
+out/
+
+# Gatsby
+.cache/
+public
+
+# Vue
+dist/
+
+### PyCharm ###
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+### Visual Studio Code ###
+.history
+*.code-workspace
